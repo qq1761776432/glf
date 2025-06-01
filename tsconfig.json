@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "target": "ES2018",
+    "module": "ESNext",
+    "moduleResolution": "node",
+    "lib": ["esnext", "dom"],
+    "esModuleInterop": true,
+    "allowJs": true,
+    "sourceMap": true,
+    "strict": true,
+    "outDir": ".nuxt/types",
+    "baseUrl": ".",
+    "types": ["node", "vue"]
+  },
+  "include": [".nuxt/types/**/*", "nuxt.config.ts", "plugins/**/*.ts"]
+}
